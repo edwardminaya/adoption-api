@@ -1,3 +1,4 @@
+### Create Pet Entry
 POST http://localhost:3000/pets.json
 Content-Type: application/json
 
@@ -11,10 +12,18 @@ Content-Type: application/json
   "age": 1,
   "location": "test location",
   "introduction": "test intro",
-  "housbroken": "test housebroken",
+  "housebroken": "test housebroken",
   "crate_trained": "crate trained test",
   "dog_social": "test",
   "cat_social": "test",
   "kid_compatibility": "test",
   "full_description": "test"
+}
+
+### Update Pet
+PATCH http://localhost:3000/pets/3.json
+Content-Type: application/json
+
+{
+  "name": "new  http"
 }
