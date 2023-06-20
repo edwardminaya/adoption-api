@@ -1,0 +1,20 @@
+POST http://localhost:3000/pets.json
+Content-Type: application/json
+
+{
+  "name": "http",
+  "breed": "test breed", 
+  "sex": "female",
+  "weight": 1,
+  "height": 1,
+  "length": 1,
+  "age": 1,
+  "location": "test location",
+  "introduction": "test intro",
+  "housbroken": "test housebroken",
+  "crate_trained": "crate trained test",
+  "dog_social": "test",
+  "cat_social": "test",
+  "kid_compatibility": "test",
+  "full_description": "test"
+}
